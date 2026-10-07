@@ -22,7 +22,11 @@ const projects = [
     design: "Criação de um layout elegante e sereno, utilizando uma paleta de cores suaves, tipografia sofisticada (Playfair Display) e elementos visuais que remetem diretamente ao bem-estar e relaxamento.",
     tags: ["Landing Page", "Design de Interface", "Front-end"],
     image: "img/www.brisaesteticaintegrativa.com.br_ (2).png",
-    url: "https://www.brisaesteticaintegrativa.com.br"
+    url: "https://www.brisaesteticaintegrativa.com.br",
+    depoimento: {
+      texto: "Andrew é de confiança, entrou em contato comigo sugerindo um site para meu perfil do Google, foi super profissional e paciente. Atendeu a todas as expectativas (que não foram poucas) e entregou rápido, com todas as alterações necessárias. Eu gostei muito do site e tive muitos elogios. Recomendo e faria outros serviços com ele. Obrigada pela entrega. Nota 1000 👏🥳",
+      autor: "Karina Gazetta"
+    }
   }
 ];
 
@@ -116,6 +120,7 @@ function openProject(i) {
           ${detail("Necessidade de apresentação", p.necessidade)}
           ${detail("Trabalho realizado", p.entrega)}
           ${detail("Decisões de design e navegação", p.design)}
+          ${p.depoimento ? detail("Depoimento do cliente", `<em>"${p.depoimento.texto}"</em><br>— <strong>${p.depoimento.autor}</strong>`) : ""}
         </div>
         <div class="pi-tags">${p.tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
         ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Visitar site do projeto ↗</a>` : ""}
