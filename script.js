@@ -37,7 +37,7 @@ const projects = [
     design: "Uso de uma paleta de cores serena e tipografia sofisticada (Cormorant Garamond e Manrope) para transmitir confiança, tranquilidade e profissionalismo, elementos fundamentais em saúde mental.",
     tags: ["Landing Page", "Design de Interface", "Front-end"],
     image: "img/psiigor.vercel.app_.png",
-    url: "https://psiigor.vercel.app/"
+    url: "https://psiigorcanzi.vercel.app/"
   }
 ];
 
@@ -197,12 +197,12 @@ document.body.classList.add("js-loaded");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const io = "IntersectionObserver" in window
   ? new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        io.unobserve(entry.target);
-        requestAnimationFrame(() => requestAnimationFrame(() => entry.target.classList.add("is-revealed")));
-      });
-    }, { threshold: 0.08, rootMargin: "0px 0px -60px 0px" })
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      io.unobserve(entry.target);
+      requestAnimationFrame(() => requestAnimationFrame(() => entry.target.classList.add("is-revealed")));
+    });
+  }, { threshold: 0.08, rootMargin: "0px 0px -60px 0px" })
   : null;
 
 function observeReveal(els) {
