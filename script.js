@@ -27,6 +27,17 @@ const projects = [
       texto: "Andrew é de confiança, entrou em contato comigo sugerindo um site para meu perfil do Google, foi super profissional e paciente. Atendeu a todas as expectativas (que não foram poucas) e entregou rápido, com todas as alterações necessárias. Eu gostei muito do site e tive muitos elogios. Recomendo e faria outros serviços com ele. Obrigada pela entrega. Nota 1000 👏🥳",
       autor: "Karina Gazetta"
     }
+  },
+  {
+    title: "Igor Canzi",
+    segmento: "Psicologia Clínica",
+    description: "Psicólogo clínico e psicanalista. Atendimento on-line e presencial com escuta atenta, cuidadosa e singular.",
+    necessidade: "O profissional precisava de uma plataforma digital para apresentar seus serviços de psicanálise (atendimento clínico, supervisão e palestras), transmitindo um ambiente seguro e acolhedor e facilitando o agendamento de consultas.",
+    entrega: "Desenvolvimento de uma Landing Page moderna com design limpo, destacando as modalidades de atendimento, especialidades e um formulário direto para contato via WhatsApp com simulação em tempo real.",
+    design: "Uso de uma paleta de cores serena e tipografia sofisticada (Cormorant Garamond e Manrope) para transmitir confiança, tranquilidade e profissionalismo, elementos fundamentais em saúde mental.",
+    tags: ["Landing Page", "Design de Interface", "Front-end"],
+    image: "img/psiigor.vercel.app_.png",
+    url: "https://psiigor.vercel.app/"
   }
 ];
 
