@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Andrew Harris web design">
+  <rect width="48" height="48" rx="12" fill="#2563eb"/>
+  <rect width="48" height="48" rx="12" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="1"/>
+  <!-- H: haste esquerda, travessa e haste central compartilhada com o R -->
+  <path d="M13 13v22M13 24h11M24 13v22" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- R: bojo e perna -->
+  <path d="M24 13h6.5a5.500 5.500 0 0 1 0 11H24M31 24l5 11" fill="none" stroke="#bcd5ff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
